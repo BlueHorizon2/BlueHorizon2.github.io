@@ -8,10 +8,12 @@ body
   width: 900px;
   margin: auto;
   background-color: rgb(243, 233, 233);
+  text-align:center;
 }
 header, footer 
 {
   background-color: #6d6c6c;
+  opacity: 50%;
 }
 
 header {
@@ -32,8 +34,9 @@ header a
 {
   display: flex;
   padding: 15px 5px;
-  color: rgb(32, 32, 32);
+  color: rgb(8, 8, 8);
   text-decoration:none;
+  opacity: 100%;
 }
 .title {
   font-weight: bold;
@@ -44,6 +47,5 @@ header a
 
 h1
 {
-  padding-left: 50%;
   text-decoration: underline;
 }
