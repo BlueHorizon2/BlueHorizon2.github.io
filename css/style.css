@@ -15,9 +15,9 @@
 @media(min-height: 1226)
 {
   .carousel img
-{
-  width: max-content;
-  height: 1182px;
-  object-fit: cover;
-}
+  {
+    width: 500px;
+    height: 1182px;
+    object-fit: cover;
+  }
 }
