@@ -11,12 +11,12 @@
   object-fit: cover;
 }
 
-@media(min-width: 1173px)
+@media(max-width: 1173px)
 {
   .carousel img
   {
-    width: auto;
-    height: 719px;
+    width: 1173;
+    height: 1182;
     object-fit: cover;
   }
 }
