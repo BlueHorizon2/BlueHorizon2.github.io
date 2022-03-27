@@ -1,12 +1,22 @@
-
 .navbar
 {
   padding-top: 2px;
   padding-bottom: 2px;
 }
 
-.carousel img{
+.carousel img
+{
   width: 1173px;
   height: 719px;
   object-fit: cover;
+}
+
+@media(min-width: 1173px)
+{
+  .carousel img
+  {
+    width: auto;
+    height: 719px;
+    object-fit: cover;
+  }
 }
