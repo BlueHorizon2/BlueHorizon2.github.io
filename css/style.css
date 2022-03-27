@@ -1,3 +1,4 @@
+
 .navbar
 {
   padding-top: 2px;
@@ -6,17 +7,17 @@
 
 .carousel img
 {
-  width: 1173px;
+  width: max-content;
   height: 719px;
   object-fit: cover;
 }
 
-@media(max-width: 1173px)
+@media(min-height: 1226)
 {
   .carousel img
-  {
-    width: 1173;
-    height: 1182;
-    object-fit: cover;
-  }
+{
+  width: max-content;
+  height: 1182px;
+  object-fit: cover;
+}
 }
