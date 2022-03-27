@@ -14,6 +14,12 @@
 
 @media(min-height: 1226)
 {
+  .navbar
+{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
   .carousel img
   {
     width: 500px;
