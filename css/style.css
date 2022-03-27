@@ -1,10 +1,4 @@
-.header
-{
-  position: absolute;
-  top:0px;
-  opacity: 80%;
-  width: 100%;
-}
+
 .navbar
 {
   padding-top: 2px;
@@ -13,6 +7,6 @@
 
 .carousel img{
   width: 1173px;
-  height: 763px;
+  height: 719px;
   object-fit: cover;
 }
