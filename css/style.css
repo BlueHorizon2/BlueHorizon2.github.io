@@ -1,29 +1,5 @@
-
-.navbar
+.carousel-item
 {
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-.carousel img
-{
-  width: max-content;
-  height: 719px;
-  object-fit: cover;
-}
-
-@media(min-height: 1226)
-{
-  .navbar
-{
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-  .carousel img
-  {
-    width: 500px;
-    height: 1182px;
-    object-fit: cover;
-  }
+  height: 92.5vh;
+  width: 100vh;
 }
