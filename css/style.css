@@ -1,5 +1,37 @@
-.carousel-item
+.navbar
 {
-  height: 92.5vh;
-  width: 100vh;
+  padding-top: 0.2vh;
+  padding-bottom: 0.2vh;
+}
+
+.carousel
+{
+  height: 97vh;
+}
+.carousel img
+{
+  max-width: fit-content;
+  height: 100vh;
+  object-position: center;
+}
+
+
+@media(min-width: 1100px)
+{
+  .carousel
+  {
+    height: 94.3vh;
+  }
+  .carousel img
+  {
+    max-width: 500%;
+    max-height: 500%;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+  main{
+    
+    overflow: hidden;
+  }
 }
