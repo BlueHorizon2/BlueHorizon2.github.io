@@ -4,6 +4,71 @@
   padding-bottom: 2px;
 }
 
+.about-img
+{
+  position: fixed;
+  width: 100vw;
+
+}
+.parallax
+{
+  background-image: url(img/about.jpg);
+  width: 100vw;
+  min-height: 700px;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.transbox
+{
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+h1
+{
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 15px;
+  color:darkgrey
+}
+p
+{  
+  text-align: center;
+}
+
+.noscroll
+{
+  overflow: hidden;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 @media(orientation:portrait)
 {
   .carousel
@@ -26,14 +91,10 @@
   }
   .carousel img
   {
-    max-width: 500%;
-    max-height: 500%;
+    max-width: 100vw;
+    max-height: 100vw;
     width: 100vw;
     height: auto;
     object-fit: cover;
-  }
-  main
-  {
-    overflow: hidden;
   }
 }
