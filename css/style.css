@@ -21,14 +21,16 @@
 {
   .carousel
   {
-    height: 94.3vh;
+    width: 100vw;
+    height: 94.1vh;
   }
   .carousel img
   {
     max-width: 500%;
     max-height: 500%;
     width: 100vw;
-    height: auto;
+    height: 100vh;
+    object-fit: cover;
   }
   main
   {
