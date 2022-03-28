@@ -8,11 +8,11 @@
 {
   .carousel
   {
-    height: 97vh;
+    height: 95vh;
   }
   .carousel img
   {
-    height: 100vh;
+    height: 95vh;
     object-position: -100vw;
   }
 }
@@ -29,7 +29,7 @@
     max-width: 500%;
     max-height: 500%;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     object-fit: cover;
   }
   main
